@@ -1,0 +1,53 @@
+.HomeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    overflow: scroll;
+    background-image: linear-gradient(to right bottom, red, orange);
+    font-family: 'Wendy One', sans-serif;
+    font-size: 1.25rem;
+}
+
+.nameContainer {
+    position: fixed;
+    top: 40vh;
+    left: 20vw;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 1.25rem;
+}
+
+.home {
+    color: white;
+}
+
+.homeRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50vw;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5rem 0 5rem;
+    line-height: 1.5rem;
+}
+
+.homeBtn {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,65 @@
+.TripContainer {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.tripHeader {
+    position: absolute;
+    width: 100vw;
+    top: 2%;
+    left: 0%;
+}
+
+.PicturesHeader {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 5rem;
+    animation-name: textEnter;
+    animation-duration: 3s;
+}
+
+.PicturesContainer {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    animation-name: enter;
+    animation-duration: 3s;
+}
+
+.PicturesContainer img {
+    height: 80vh;
+    width: 80vw;
+    border-radius: 1%;
+}
+
+.pLeft {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3rem;
+}
+
+.pRight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 40%;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 3rem;
+}
+
+@keyframes enter {
+    from {top: 150%;}
+    to {top: 65%;}
+  }
+
+  @keyframes textEnter {
+    from {top: -10%; opacity: 0;}
+    to {top: 25%; opacity: 1}
+  }

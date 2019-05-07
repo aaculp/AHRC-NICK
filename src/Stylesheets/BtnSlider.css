@@ -1,0 +1,33 @@
+.homeBtn {
+    position: relative;
+    background-color: #FF7804;
+    font-size: 2.5rem;
+    color: white;
+    border: 0.1875rem solid #FF3105;
+    padding: 0.5rem 1.20rem;
+    transition: all 0.5s;
+    overflow: hidden;
+    font-family: 'Schoolbell', cursive;
+    /* margin-left: 10rem; */
+}
+
+.homeBtn:before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    transform: translateX(-100%) rotate(45deg);
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.homeBtn:hover {
+    background-color: #FF3105;
+}
+
+.homeBtn:hover:before {
+    transform: translateX(100%) rotate(45deg);
+}

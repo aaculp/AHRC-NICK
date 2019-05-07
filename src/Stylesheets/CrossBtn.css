@@ -1,0 +1,54 @@
+.itineraryBtn {
+    margin: 25px 140px;
+    padding: 10px 10px;
+    color: #262626;
+    font-size: 24px;
+    letter-spacing: 2px;
+    border: 5px solid #262626;
+    background-color: #FF9B00;
+    position: relative;
+    transition: 1s;
+    width: 20vw;
+}
+
+.itineraryBtn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF2E03;
+    transition: 2s;
+    transform: rotateX(90deg);
+    z-index: -1;
+}
+
+.itineraryBtn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF2E03;
+    transition: 2s;
+    transform: rotateY(90deg);
+    z-index: -1;
+}
+
+.itineraryBtn:hover:before {
+    transform: rotateX(0deg);
+
+}
+
+.itineraryBtn:hover:after {
+    transform: rotateY(0deg);
+
+}
+
+.itineraryBtn:hover {
+    color: white;
+    z-index: 1;
+
+}

@@ -1,0 +1,71 @@
+.ItineraryContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, red, orange);
+}
+
+.itineraryHeader {
+    position: fixed;
+    width: 100vw;
+    top: 2%;
+    left: 0%;
+    z-index: 5;
+}
+
+.itineraryForm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+}
+
+.formInput {
+  width: 20vw;
+}
+
+.itineraryRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+}
+
+li {
+  margin: 10px 0;
+  list-style-type: circle;
+}
+
+.lists {
+  font-weight: bold;
+  animation-name: lis;
+  animation-duration: 1s;
+}
+
+@keyframes lis {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
