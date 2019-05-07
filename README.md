@@ -1,4 +1,3 @@
-https://aaculp.github.io/AHRC-NICK/
 
 ## Available Scripts
 
