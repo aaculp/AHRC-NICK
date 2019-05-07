@@ -18,6 +18,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage" : "http://aaculp.github.io/AHRC-NICK",
   "browserslist": [
     ">0.2%",
     "not dead",
